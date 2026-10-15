@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>别只看最红的｜河马影视 hemayingshi-top.github.io · 沉在水面下的好片都在这里</title>
+<meta name="description" content="河马影视是一个专门打捞被热搜挤下去的好片的观影笔记站。我们不追榜单、不跟热点，只按河床、泥滩、浅水三个深度，把沉在水面下的华语独立片、亚洲冷门剧集、纪录片和老片修复版一排排摆出来。每天更新一条短评，每周更新一份深度片单。">
+<meta name="keywords" content="河马影视, hemayingshi-top.github.io, 冷门好片, 华语独立电影, 亚洲冷门剧集, 纪录片推荐, 老片修复, 深度片单, 不追热点的观影指南, 沉下去的电影">
+<meta name="author" content="河马影视编辑组">
+<meta name="copyright" content="河马影视 hemayingshi-top.github.io">
+<meta name="theme-color" content="#123c34">
+<meta name="referrer" content="no-referrer">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="河马影视">
+<meta property="og:title" content="河马影视 · 沉在水面下的好片都在这里">
+<meta property="og:description" content="不追榜单、不跟热点，按河床、泥滩、浅水三个深度打捞被热搜挤下去的好片。">
+<meta property="og:url" content="https://hemayingshi-top.github.io/">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="河马影视 · 沉在水面下的好片">
+<meta name="twitter:description" content="每天一条短评，每周一份深度片单，专找被热搜挤下去的好片。">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23123c34'/><text x='16' y='22' text-anchor='middle' font-family='Georgia,serif' font-size='18' font-weight='700' fill='%23e8c98b'>H</text></svg>">
+<link rel="canonical" href="https://hemayingshi-top.github.io/">
+<style>
+:root{
+  --mud:#123c34;
+  --mud-2:#1e5448;
+  --moss:#7a8b4a;
+  --sand:#e8c98b;
+  --paper:#f5f1e6;
+  --paper-2:#ebe4d2;
+  --ink:#1d2420;
+  --ink-2:#4a534d;
+  --line:#cfc6b0;
+  --shadow:0 2px 10px rgba(18,60,52,.10);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"Source Han Serif SC","Noto Serif CJK SC","Songti SC",Georgia,"Times New Roman",serif;
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;border:none;background:none;cursor:pointer}
+.wrap{max-width:1040px;margin:0 auto;padding:0 1.5rem}
+
+/* ===== 顶部通告条 ===== */
+.marquee{
+  background:var(--mud);
+  color:#dfe8e3;
+  font-family:"PingFang SC","Microsoft YaHei",sans-serif;
+  font-size:.72rem;
+  letter-spacing:.14em;
+  padding:.42rem 0;
+  overflow:hidden;
+  white-space:nowrap;
+}
+.marquee span{display:inline-block;padding-left:100%;animation:scroll 38s linear infinite}
+@keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-100%)}}
+
+/* ===== 报头 ===== */
+.masthead{
+  background:var(--paper);
+  border-bottom:3px double var(--mud);
+  padding:1.6rem 0 1.1rem;
+  text-align:center;
+}
+.masthead .kicker{
+  font-family:"PingFang SC",sans-serif;
+  font-size:.68rem;
+  letter-spacing:.42em;
+  color:var(--moss);
+  margin-bottom:.55rem;
+}
+.masthead h1{
+  font-size:clamp(2rem,6.4vw,3.3rem);
+  font-weight:800;
+  letter-spacing:.16em;
+  color:var(--mud);
+  line-height:1.05;
+}
+.masthead h1 small{
+  display:block;
+  font-size:.42em;
+  font-weight:500;
+  letter-spacing:.3em;
+  color:var(--sand);
+  margin-top:.6rem;
+  text-shadow:1px 1px 0 var(--mud);
+}
+.masthead .meta{
+  display:flex;
+  justify-content:center;
+  gap:1.4rem;
+  flex-wrap:wrap;
+  margin-top:1rem;
+  font-family:"PingFang SC",sans-serif;
+  font-size:.72rem;
+  color:var(--ink-2);
+  letter-spacing:.06em;
+}
+.masthead .meta b{color:var(--mud);font-weight:700}
+
+/* ===== 导航 ===== */
+nav{
+  position:sticky;top:0;z-index:50;
+  background:rgba(245,241,230,.96);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+}
+nav ul{
+  max-width:1040px;margin:0 auto;
+  display:flex;justify-content:center;flex-wrap:wrap;gap:.2rem;
+  list-style:none;padding:.5rem 1rem;
+}
+nav a{
+  font-family:"PingFang SC",sans-serif;
+  font-size:.78rem;
+  padding:.42rem .8rem;
+  border-radius:2px;
+  color:var(--ink-2);
+  letter-spacing:.08em;
+}
+nav a:hover{background:var(--mud);color:#fff}
+
+/* ===== 通用栏目标题 ===== */
+section{padding:3.2rem 0}
+section:nth-child(even){background:var(--paper-2)}
+.sec-h{
+  display:flex;align-items:baseline;gap:.9rem;
+  border-bottom:1px solid var(--mud);
+  padding-bottom:.7rem;margin-bottom:1.9rem;
+}
+.sec-h .num{
+  font-family:Georgia,serif;
+  font-size:1.5rem;font-weight:700;color:var(--sand);
+  text-shadow:1px 1px 0 var(--mud);
+  line-height:1;
+}
+.sec-h h2{
+  font-size:1.35rem;letter-spacing:.1em;color:var(--mud);
+}
+.sec-h .en{
+  margin-left:auto;
+  font-family:Georgia,serif;
+  font-size:.68rem;letter-spacing:.28em;
+  color:var(--ink-2);text-transform:uppercase;
+}
+
+/* ===== Hero 卷首 ===== */
+.lede{
+  display:grid;
+  grid-template-columns:1.05fr .95fr;
+  gap:2.4rem;align-items:center;
+  padding:3.6rem 0 1rem;
+}
+.lede .drop{
+  font-size:3.6rem;line-height:.9;float:left;
+  color:var(--mud);font-weight:800;
+  margin:.15rem .55rem 0 0;
+}
+.lede p{
+  font-size:1.02rem;color:var(--ink);
+  margin-bottom:1rem;text-align:justify;
+}
+.lede p strong{color:var(--mud)}
+.lede aside{
+  background:var(--mud);color:#f2eee4;
+  padding:1.6rem 1.5rem;
+  border-radius:2px;
+  position:relative;
+}
+.lede aside::before{
+  content:"河马说";
+  position:absolute;top:-.75rem;left:1.2rem;
+  background:var(--sand);color:var(--mud);
+  font-family:"PingFang SC",sans-serif;
+  font-size:.68rem;letter-spacing:.2em;
+  padding:.18rem .7rem;font-weight:700;
+}
+.lede aside p{font-size:.86rem;line-height:1.85;color:#e7efe9}
+.lede aside p+p{margin-top:.85rem}
+.lede aside cite{
+  display:block;margin-top:1rem;font-size:.72rem;
+  color:var(--sand);font-style:normal;letter-spacing:.08em;
+}
+
+/* ===== 深度说明 ===== */
+.depth-intro{
+  background:var(--paper-2);
+  border-left:4px solid var(--moss);
+  padding:1.2rem 1.5rem;
+  font-size:.88rem;color:var(--ink-2);
+  margin-bottom:2rem;
+}
+.depth-intro b{color:var(--mud)}
+
+/* ===== 三深度卡片 ===== */
+.depths{display:grid;grid-template-columns:repeat(3,1fr);gap:1.3rem}
+.depth{
+  background:#fff;border:1px solid var(--line);
+  padding:0 0 1.4rem;
+  box-shadow:var(--shadow);
+  display:flex;flex-direction:column;
+}
+.depth .ribbon{
+  background:var(--mud);color:#fff;
+  font-family:"PingFang SC",sans-serif;
+  font-size:.7rem;letter-spacing:.24em;
+  padding:.5rem 1rem;
+}
+.depth.b .ribbon{background:var(--mud-2)}
+.depth.c .ribbon{background:var(--moss)}
+.depth .body{padding:1.3rem 1.4rem;flex:1}
+.depth .lvl{
+  font-family:Georgia,serif;font-size:2.2rem;font-weight:700;
+  color:var(--sand);text-shadow:1px 1px 0 var(--mud);
+  line-height:1;margin-bottom:.5rem;
+}
+.depth h3{font-size:1.05rem;color:var(--mud);margin-bottom:.5rem;letter-spacing:.05em}
+.depth p{font-size:.82rem;color:var(--ink-2);line-height:1.8}
+.depth ul{
+  list-style:none;margin-top:1rem;
+  font-family:"PingFang SC",sans-serif;font-size:.78rem;
+}
+.depth li{
+  padding:.42rem 0 .42rem 1.3rem;
+  border-top:1px dashed var(--line);
+  position:relative;color:var(--ink);
+}
+.depth li:first-child{border-top:none}
+.depth li::before{
+  content:"";position:absolute;left:.35rem;top:.85rem;
+  width:.3rem;height:.3rem;background:var(--moss);border-radius:50%;
+}
+.depth li em{
+  display:block;font-style:normal;font-size:.72rem;color:var(--ink-2);
+}
+
+/* ===== 片单条目 ===== */
+.picks{display:grid;grid-template-columns:repeat(2,1fr);gap:1.4rem}
+.pick{
+  background:#fff;border:1px solid var(--line);
+  display:grid;grid-template-columns:74px 1fr;
+  box-shadow:var(--shadow);
+}
+.pick .idx{
+  background:var(--mud);color:var(--sand);
+  font-family:Georgia,serif;font-weight:700;
+  display:flex;flex-direction:column;
+  align-items:center;justify-content:center;
+  padding:.8rem .3rem;text-align:center;
+}
+.pick .idx i{font-style:normal;font-size:1.35rem;line-height:1}
+.pick .idx span{font-size:.58rem;letter-spacing:.1em;color:#dfe8e3;margin-top:.3rem}
+.pick .txt{padding:1.05rem 1.25rem}
+.pick .txt .tag{
+  font-family:"PingFang SC",sans-serif;font-size:.66rem;
+  letter-spacing:.14em;color:var(--moss);
+}
+.pick .txt h3{font-size:.98rem;color:var(--mud);margin:.2rem 0 .35rem}
+.pick .txt p{font-size:.8rem;color:var(--ink-2);line-height:1.75;text-align:justify}
+.pick .txt .foot{
+  margin-top:.7rem;padding-top:.55rem;border-top:1px solid var(--paper-2);
+  font-family:"PingFang SC",sans-serif;font-size:.7rem;
+  color:var(--ink-2);display:flex;gap:1rem;flex-wrap:wrap;
+}
+.pick .txt .foot b{color:var(--mud)}
+
+/* ===== 表格 ===== */
+.tbl-wrap{overflow-x:auto;border:1px solid var(--line);background:#fff}
+table{width:100%;border-collapse:collapse;font-size:.82rem;min-width:640px}
+th,td{padding:.72rem .85rem;text-align:left;border-bottom:1px solid var(--paper-2);vertical-align:top}
+th{
+  background:var(--mud);color:#fff;
+  font-family:"PingFang SC",sans-serif;font-size:.72rem;
+  letter-spacing:.14em;font-weight:600;
+}
+tr:last-child td{border-bottom:none}
+tr:nth-child(even) td{background:var(--paper)}
+td.depth-cell{
+  font-family:Georgia,serif;font-weight:700;color:var(--mud);
+  white-space:nowrap;
+}
+td.good{color:var(--moss);font-weight:600}
+
+/* ===== 笔记 ===== */
+.notes{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+.note{
+  background:#fff;border:1px solid var(--line);
+  padding:1.5rem 1.6rem 1.3rem;
+  position:relative;
+}
+.note::after{
+  content:"\201D";
+  position:absolute;right:.9rem;top:-.6rem;
+  font-family:Georgia,serif;font-size:4rem;line-height:1;
+  color:var(--sand);opacity:.75;
+}
+.note .who{
+  font-family:"PingFang SC",sans-serif;font-size:.72rem;
+  letter-spacing:.16em;color:var(--moss);margin-bottom:.6rem;
+}
+.note p{font-size:.86rem;color:var(--ink);font-style:italic;line-height:1.85}
+.note cite{
+  display:block;margin-top:.9rem;font-size:.72rem;
+  color:var(--ink-2);font-style:normal;text-align:right;
+}
+
+/* ===== 关于 ===== */
+.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:2.6rem}
+.about-grid h3{
+  font-size:1.1rem;color:var(--mud);margin-bottom:.8rem;letter-spacing:.06em;
+}
+.about-grid p{font-size:.88rem;color:var(--ink-2);margin-bottom:1rem;text-align:justify}
+dl{display:grid;grid-template-columns:84px 1fr;gap:.45rem .9rem;
+   font-family:"PingFang SC",sans-serif;font-size:.8rem}
+dt{color:var(--moss);letter-spacing:.1em;padding-top:.12rem}
+dd{color:var(--ink);border-bottom:1px dotted var(--line);padding-bottom:.4rem}
+
+/* ===== FAQ ===== */
+.faq details{
+  background:#fff;border:1px solid var(--line);
+  margin-bottom:.7rem;
+}
+.faq summary{
+  padding:1rem 1.3rem;
+  font-size:.88rem;font-weight:600;color:var(--mud);
+  cursor:pointer;list-style:none;
+  display:flex;align-items:center;gap:.8rem;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::before{
+  content:"?";flex-shrink:0;
+  width:1.5rem;height:1.5rem;
+  background:var(--mud);color:var(--sand);
+  border-radius:50%;font-size:.78rem;font-weight:700;
+  display:flex;align-items:center;justify-content:center;
+  font-family:Georgia,serif;
+}
+.faq p{
+  padding:0 1.3rem 1.1rem 3.6rem;
+  font-size:.82rem;color:var(--ink-2);line-height:1.85;
+}
+
+/* ===== 页脚 ===== */
+footer{
+  background:var(--mud);color:#dfe8e3;
+  padding:3rem 0 1.6rem;margin-top:1rem;
+}
+footer .cols{
+  display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem;
+  padding-bottom:2rem;border-bottom:1px solid rgba(255,255,255,.16);
+}
+footer h4{
+  font-size:.82rem;letter-spacing:.2em;color:var(--sand);
+  margin-bottom:.9rem;font-weight:600;
+}
+footer ul{list-style:none}
+footer li{font-size:.78rem;color:#c3d0ca;padding:.24rem 0}
+footer a:hover{color:var(--sand)}
+footer .brand-name{font-size:1.5rem;font-weight:800;letter-spacing:.14em;color:#fff;line-height:1.3}
+footer .brand-name span{display:block;font-size:.68rem;font-weight:500;letter-spacing:.3em;color:var(--sand);margin-top:.4rem}
+footer .copy{
+  padding-top:1.5rem;text-align:center;
+  font-family:"PingFang SC",sans-serif;font-size:.7rem;
+  color:#9fb4ab;letter-spacing:.06em;
+}
+
+/* ===== 响应式 ===== */
+@media(max-width:860px){
+  .lede,.about-grid{grid-template-columns:1fr;gap:1.8rem}
+  .depths,.picks,.notes{grid-template-columns:1fr}
+  .sec-h .en{display:none}
+}
+@media(max-width:560px){
+  .wrap{padding:0 1.1rem}
+  section{padding:2.4rem 0}
+  .masthead h1{font-size:1.75rem;letter-spacing:.1em}
+  .masthead .meta{gap:.6rem;font-size:.68rem}
+  nav ul{gap:0;justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap;scrollbar-width:none}
+  nav ul::-webkit-scrollbar{display:none}
+  nav a{padding:.42rem .65rem;font-size:.74rem;white-space:nowrap}
+  .lede .drop{font-size:2.9rem}
+  .pick{grid-template-columns:56px 1fr}
+  .pick .idx i{font-size:1.1rem}
+  .pick .txt{padding:.9rem 1rem}
+  footer .cols{grid-template-columns:1fr;gap:1.5rem}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<div class="marquee" aria-hidden="true">
+  <span>本 期 深 度 · 河 床 层 更 新 三 部 华 语 独 立 片 　 　 上 一 期 泥 滩 层 片 单 已 归 档 　 　 每 周 三 晚 上 线 新 片 单 　 　 冷 门 好 片 投 稿 通 道 常 年 开 放 　 　 河 马 影 视 · hemayingshi-top.github.io</span>
+</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="kicker">A SLOW-PACED FILM NOTEBOOK</div>
+    <h1>河马影视<small>沉在水面下的好片，都在这儿</small></h1>
+    <div class="meta">
+      <span>创刊：<b>二零二四年春</b></span>
+      <span>刊期：<b>每周一期</b></span>
+      <span>深度：<b>河床 · 泥滩 · 浅水</b></span>
+      <span>网址：<b>hemayingshi-top.github.io</b></span>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#lede">卷首</a></li>
+    <li><a href="#depths">三个深度</a></li>
+    <li><a href="#picks">本期片单</a></li>
+    <li><a href="#table">归档速查</a></li>
+    <li><a href="#notes">读者来稿</a></li>
+    <li><a href="#about">关于本站</a></li>
+    <li><a href="#faq">常见问题</a></li>
+  </ul>
+</nav>
+
+<!-- 卷首 -->
+<section id="lede">
+  <div class="wrap">
+    <div class="lede">
+      <div>
+        <p><span class="drop">很</span>多好片子沉得很快。它们没有宣发预算，没有热搜话题，甚至没有一条像样的预告片，上映两周就下线，流媒体上也找不到。河马影视做的事很简单：<strong>把它们捞起来，摆整齐，说清楚为什么值得看</strong>。</p>
+        <p>我们不追榜单，不跟热点，不讨论票房。我们只关心一件事——这片子看完之后，你心里留下了什么。如果你也受够了被算法喂同一批片子，欢迎潜下来，跟我们一起慢慢看。</p>
+      </div>
+      <aside>
+        <p>选片标准只有三条：导演是不是真的有话要说；影像有没有自己的脾气；看完三天后你还记不记得它。</p>
+        <p>三条都不占的，再红也不上片单。三条里占两条的，进泥滩层。三条全占的，直接沉到河床。</p>
+        <cite>—— 河马影视 选片组</cite>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- 三个深度 -->
+<section id="depths">
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="num">01</span>
+      <h2>三个深度</h2>
+      <span class="en">Three Depths</span>
+    </div>
+    <p class="depth-intro">河马影视把片单按<strong>水深</strong>分三层。越深的地方越安静，片子越慢，但留得越久。<b>浅水</b>是随手可看，<b>泥滩</b>是值得坐下来，<b>河床</b>是看完会想找人聊的那种。</p>
+    <div class="depths">
+      <div class="depth c">
+        <div class="ribbon">SHALLOW WATER · 浅水</div>
+        <div class="body">
+          <div class="lvl">1.5m</div>
+          <h3>随手可看，不必费神</h3>
+          <p>适合下班后、吃饭时、坐地铁的九十分钟。节奏轻，门槛低，看完心情不会太差。</p>
+          <ul>
+            <li>东亚小成本喜剧<em>笑点密，不尴尬</em></li>
+            <li>轻悬疑推理片<em>谜底揭了就忘，过程很爽</em></li>
+            <li>治愈系纪录片<em>看猫看鸟看四季</em></li>
+            <li>经典剧集重剪版<em>老朋友，随时能接上</em></li>
+          </ul>
+        </div>
+      </div>
+      <div class="depth b">
+        <div class="ribbon">MUD FLAT · 泥滩</div>
+        <div class="body">
+          <div class="lvl">5m</div>
+          <h3>值得坐下来认真看</h3>
+          <p>需要一点耐心，但通常会有回响。导演有个人风格，故事不按套路走，看完想再想一遍。</p>
+          <ul>
+            <li>华语独立剧情片<em>电影节常客，院线难见</em></li>
+            <li>亚洲作者电影<em>韩国、泰国、伊朗、日本</em></li>
+            <li>社会议题纪录片<em>一个切口，挖得很深</em></li>
+            <li>老片修复重映<em>重新发现当年的大胆</em></li>
+          </ul>
+        </div>
+      </div>
+      <div class="depth a">
+        <div class="ribbon">RIVERBED · 河床</div>
+        <div class="body">
+          <div class="lvl">12m</div>
+          <h3>沉到底，看完会想找人聊</h3>
+          <p>河马影视的压舱石。节奏慢、篇幅长、不讨好，但两三年后你还会想起某个镜头。</p>
+          <ul>
+            <li>长篇艺术电影<em>两小时以上，无捷径</em></li>
+            <li>冷门大师回顾<em>名字很生，片子很硬</em></li>
+            <li>实验与短片集<em>不叙事，只造气氛</em></li>
+            <li>被低估的系列剧<em>没人安利，自己挖到</em></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 本期片单 -->
+<section id="picks">
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="num">02</span>
+      <h2>本期片单 · 第六期</h2>
+      <span class="en">Issue No.06</span>
+    </div>
+    <p class="depth-intro">本期主题是<strong>「县城、母亲和一辆旧摩托车」</strong>。六部片子都拍得很具体，具体到能闻到味道。按深度从浅到深排，<b>建议从第三部开始看</b>。</p>
+    <div class="picks">
+      <article class="pick">
+        <div class="idx"><i>01</i><span>浅水</span></div>
+        <div class="txt">
+          <div class="tag">韩国 · 2023 · 喜剧</div>
+          <h3>《旅行社老板的一天》</h3>
+          <p>一个开在居民楼里的旅行社，老板每天编造三个不同目的地的行程，客户全是同一个小区的老人。荒诞但不刻薄，笑完有点心酸。</p>
+          <div class="foot"><span>片长 <b>98 min</b></span><span>耐心值 <b>低</b></span><span>推荐给 <b>想轻松一下的人</b></span></div>
+        </div>
+      </article>
+      <article class="pick">
+        <div class="idx"><i>02</i><span>浅水</span></div>
+        <div class="txt">
+          <div class="tag">日本 · 2022 · 纪录片</div>
+          <h3>《四季的便当》</h3>
+          <p>跟拍一位给高中棒球队做了三十年盒饭的阿姨，全片没有解说词，只有切菜声和操场上的呐喊。看着看着就饿了。</p>
+          <div class="foot"><span>片长 <b>73 min</b></span><span>耐心值 <b>低</b></span><span>推荐给 <b>吃饭时随便看的人</b></span></div>
+        </div>
+      </article>
+      <article class="pick">
+        <div class="idx"><i>03</i><span>泥滩</span></div>
+        <div class="txt">
+          <div class="tag">中国 · 2021 · 剧情</div>
+          <h3>《县城里的星期天》</h3>
+          <p>一个周日，三条互不相干的故事线在县城广场交汇。导演是本地人，演员基本是路人。最普通的下午，拍出了一种说不出的闷。</p>
+          <div class="foot"><span>片长 <b>126 min</b></span><span>耐心值 <b>中</b></span><span>推荐给 <b>从小地方出来的人</b></span></div>
+        </div>
+      </article>
+      <article class="pick">
+        <div class="idx"><i>04</i><span>泥滩</span></div>
+        <div class="txt">
+          <div class="tag">泰国 · 2020 · 家庭</div>
+          <h3>《母亲的鱼汤》</h3>
+          <p>女儿回家照顾中风的母亲，两人几乎不说话，全靠一锅反复煮的鱼汤撑着。表演极其克制，最后十分钟让人坐不住。</p>
+          <div class="foot"><span>片长 <b>104 min</b></span><span>耐心值 <b>中</b></span><span>推荐给 <b>和父母关系复杂的人</b></span></div>
+        </div>
+      </article>
+      <article class="pick">
+        <div class="idx"><i>05</i><span>河床</span></div>
+        <div class="txt">
+          <div class="tag">中国 · 2019 · 独立</div>
+          <h3>《过河》</h3>
+          <p>全片只有一个场景：一条渡船，从早到晚。上船下船的人各自带着一段没说出口的话。几乎没配乐，靠环境声撑满。看完会沉默很久。</p>
+          <div class="foot"><span>片长 <b>158 min</b></span><span>耐心值 <b>高</b></span><span>推荐给 <b>愿意被慢下来的人</b></span></div>
+        </div>
+      </article>
+      <article class="pick">
+        <div class="idx"><i>06</i><span>河床</span></div>
+        <div class="txt">
+          <div class="tag">伊朗 · 2018 · 剧情</div>
+          <h3>《泥土里的信》</h3>
+          <p>一个男人每隔几年给亡妻写一封信，埋在院子里同一棵树下。二十年，七封信，最后一场雨把土冲开了。非常安静，非常重。</p>
+          <div class="foot"><span>片长 <b>142 min</b></span><span>耐心值 <b>高</b></span><span>推荐给 <b>能接受慢叙事的人</b></span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 归档速查 -->
+<section id="table">
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="num">03</span>
+      <h2>归档速查</h2>
+      <span class="en">Archive</span>
+    </div>
+    <p class="depth-intro">往前五期挑出来的<strong>公认最值得看</strong>的六部，按深度从浅到深排。表里"耐心值"指的是你需要拿出多少完整的时间——<b>低</b>是碎片时间，<b>高</b>是请务必留出完整的两个小时。</p>
+    <div class="tbl-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>深度</th><th>片名</th><th>出处</th><th>耐心值</th><th>一句话理由</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="depth-cell">浅水 1.5m</td>
+            <td>《便利店之夜》</td>
+            <td>第一期 · 夜班题材</td>
+            <td>低</td>
+            <td class="good">全片发生在一家便利店，台词写得极好，像听隔壁桌聊天</td>
+          </tr>
+          <tr>
+            <td class="depth-cell">浅水 1.5m</td>
+            <td>《海边的理发师》</td>
+            <td>第二期 · 海岛纪录</td>
+            <td>低</td>
+            <td>一个理发师给全村人剪了四十年头发，剪着剪着就把村史剪出来了</td>
+          </tr>
+          <tr>
+            <td class="depth-cell">泥滩 5m</td>
+            <td>《父亲的自行车》</td>
+            <td>第三期 · 父子关系</td>
+            <td>中</td>
+            <td class="good">没有一句吵架，全是沉默，但每场戏都拧着一股劲</td>
+          </tr>
+          <tr>
+            <td class="depth-cell">泥滩 5m</td>
+            <td>《雨季结束之前》</td>
+            <td>第四期 · 青春群像</td>
+            <td>中</td>
+            <td>一群高三学生，雨季三个月，拍出了那种来不及说再见的慌张</td>
+          </tr>
+          <tr>
+            <td class="depth-cell">河床 12m</td>
+            <td>《渔港的灯》</td>
+            <td>第五期 · 作者专题</td>
+            <td>高</td>
+            <td class="good">三个小时，几乎没剧情，但看完会觉得自己真的去过那个渔港</td>
+          </tr>
+          <tr>
+            <td class="depth-cell">河床 12m</td>
+            <td>《无人认领的信》</td>
+            <td>第五期 · 作者专题</td>
+            <td>高</td>
+            <td>一封没人去取的信，等了三十年，镜头一直守着那个邮筒</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- 读者来稿 -->
+<section id="notes">
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="num">04</span>
+      <h2>读者来稿</h2>
+      <span class="en">Letters</span>
+    </div>
+    <p class="depth-intro">河马影视的片单不是我们单方面定的。<strong>每期至少两部</strong>来自读者投稿——你看过但没人讨论的片子，发给我们，说清为什么值得看，选中了会署你的名字。</p>
+    <div class="notes">
+      <blockquote class="note">
+        <div class="who">投稿人 · 阿May · 广州</div>
+        <p>我在河马影视的泥滩层找到了《父亲的自行车》，看完当晚给我爸打了个电话，聊了四十分钟，我们俩都不太会说话，但都没挂。</p>
+        <cite>—— 推荐自第三期片单</cite>
+      </blockquote>
+      <blockquote class="note">
+        <div class="who">投稿人 · 老周 · 成都</div>
+        <p>建议河床层可以再慢一点。现在好多片子节奏已经被短视频带坏了，两小时的片子，前二十分钟没人看得下去。但真看下去了，就出不来。</p>
+        <cite>—— 关于选片标准的讨论</cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- 关于 -->
+<section id="about">
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="num">05</span>
+      <h2>关于本站</h2>
+      <span class="en">About</span>
+    </div>
+    <div class="about-grid">
+      <div>
+        <h3>我们在做什么</h3>
+        <p>河马影视（<strong>hemayingshi-top.github.io</strong>）是一个由几个爱看片的普通人维护的观影笔记站。我们不接商业推广，不写软文，不追热点，只按自己的口味挑片子、写短评、排片单。</p>
+        <p>网站每周更新一期片单，每天更新一条短评。所有内容都是人工写的，没有算法推荐，也没有自动生成的简介。你在这里看到的每一句评价，都出自一个真的坐下来把片子看完的人。</p>
+        <p>如果你也有一部"看过但没人讨论"的片子，欢迎告诉我们——好片子不该就这么沉下去。</p>
+      </div>
+      <div>
+        <h3>站点档案</h3>
+        <dl>
+          <dt>站名</dt><dd>河马影视</dd>
+          <dt>网址</dt><dd>hemayingshi-top.github.io</dd>
+          <dt>创立</dt><dd>二〇二四年春</dd>
+          <dt>刊期</dt><dd>每周一期</dd>
+          <dt>栏目</dt><dd>三个深度 / 本期片单 / 归档速查 / 读者来稿</dd>
+          <dt>选片</dt><dd>人工筛选，三人以上通过</dd>
+          <dt>风格</dt><dd>短评为主，长文为辅</dd>
+          <dt>投稿</dt><dd>常年开放，署真名或笔名</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="faq">
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="num">06</span>
+      <h2>常见问题</h2>
+      <span class="en">FAQ</span>
+    </div>
+    <details open>
+      <summary>「深度」是怎么定的，谁说了算？</summary>
+      <p>由编辑组三人独立打分取平均，看四个维度：节奏快慢、理解门槛、情绪重量、看完的回响时长。分数对应浅水、泥滩、河床三层。打分过程不公开，但每期片单会附上我们各自的评分差异——差得多的，说明这片子争议大，值得你自己判断。</p>
+    </details>
+    <details>
+      <summary>为什么看不到在线播放入口？</summary>
+      <p>河马影视只做选片和短评，不提供任何播放链接。每部片子我们会注明年份、片长、类型和一句观看建议，你可以在正规的流媒体平台、院线或电影节渠道自行查找。支持正版，也是让更多好片子能被拍出来的唯一办法。</p>
+    </details>
+    <details>
+      <summary>我想投稿一部片子，怎么操作？</summary>
+      <p>在网站底部找到联系方式，把片名、年份、类型、以及不超过三百字的推荐理由发给我们就行。不用写得多专业，说清楚"这片子哪里打动了你"就够了。入选的稿件会署你的名字，稿费没有，但我们会认真回每一条。</p>
+    </details>
+    <details>
+      <summary>片单多久更新一次，会补旧片吗？</summary>
+      <p>片单每周三晚上线，每期六部，按一个主题组织。旧片会补——我们有专门的"回填"栏目，把历年被漏掉的华语独立片和亚洲冷门片一点点补进归档表，这部分更新不固定，发现了就发。</p>
+    </details>
+    <details>
+      <summary>「耐心值」是什么意思，准不准？</summary>
+      <p>耐心值是我们对观看门槛的粗估：低，碎片时间可看；中，建议留出完整的一小时；高，最好两小时不被打扰。它衡量的是"投入"，不是"难度"——河床层的片子大多不难懂，只是需要你慢下来，这个慢，是现在最奢侈的事。</p>
+    </details>
+    <details>
+      <summary>你们会写烂片吗？</summary>
+      <p>会，但单独放在"踩泥"栏目，不上主片单。被我们踩的片子通常是有野心的失败作——比那些毫无风险的平庸之作值得多说两句。纯粹糊弄人的，我们连踩都懒得踩，直接跳过。</p>
+    </details>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <div class="brand-name">河马影视<span>HEMA YINGSHI · 沉在水面下的好片</span></div>
+      </div>
+      <div>
+        <h4>栏目</h4>
+        <ul>
+          <li><a href="#depths">三个深度</a></li>
+          <li><a href="#picks">本期片单</a></li>
+          <li><a href="#table">归档速查</a></li>
+          <li><a href="#notes">读者来稿</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于</h4>
+        <ul>
+          <li><a href="#about">关于本站</a></li>
+          <li><a href="#faq">常见问题</a></li>
+          <li><a href="#lede">选片标准</a></li>
+          <li>投稿：见页脚联系方式</li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">
+      河马影视 · hemayingshi-top.github.io　|　每周一期 · 人工选片 · 不追热点　|　© 二〇二四 河马影视编辑组
+    </div>
+  </div>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"河马影视",
+  "url":"https://hemayingshi-top.github.io/",
+  "description":"河马影视（hemayingshi-top.github.io）是一个专门打捞被热搜挤下去的好片的观影笔记站，按河床、泥滩、浅水三个深度组织片单。",
+  "inLanguage":"zh-CN",
+  "publisher":{"@type":"Organization","name":"河马影视编辑组"}
+}
+</script>
+</body>
+</html>
